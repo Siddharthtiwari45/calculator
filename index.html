@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+    <script src="cal.js"></script>
+</head>
+
+<body>
+    <center>
+        <div class="calculator">
+            <h2>Calculator</h2>
+            <input type="text" placeholder="Enter" id="val" readonly>
+            <table cellpadding="10">
+                <tr>
+                    <td> <button onclick="load(1)">1</button></td>
+                    <td> <button onclick="load(2)">2</button></td>
+                    <td> <button onclick="load(3)">3</button></td>
+                    <td> <button onclick="load('+')">+</button></td>
+
+                </tr>
+                <tr>
+                    <td> <button onclick="load(4)">4</button></td>
+                    <td> <button onclick="load(5)">5</button></td>
+                    <td> <button onclick="load(6)">6</button></td>
+                    <td> <button onclick="load('-')">-</button></td>
+
+                </tr>
+                <tr>
+                    <td> <button onclick="load(7)">7</button></td>
+                    <td> <button onclick="load(8)">8</button></td>
+                    <td> <button onclick="load(9)">9</button></td>
+                    <td> <button onclick="load('*')">*</button></td>
+
+                </tr>
+
+                <tr>
+                    <td> <button onclick="clr()">C</button></td>
+                    <td> <button onclick="result()">=</button></td>
+                    <td> <button onclick="load('.')">.</button></td>
+                    <td> <button onclick="load('/')">/</button></td>
+                </tr>
+            </table>
+        </div>
+    </center>
+</body>
+
+</html>
